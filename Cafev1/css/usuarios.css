@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rufina', serif;
+}
+
+.card-img {
+    height: 550px;
+    width: auto;
+    image-rendering: optimizeQuality;
+}
+
+.card-title {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-top: 200px;
+    font-size: 100px;
+}
+
+.Usuarios {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cardContainer {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardContainer img {
+    width: 300px;
+}
+
+.cardContainer .cardImage1,
+.cardImage2,
+.cardImage3 {
+    height: 438px;
+    width: 316px;
+}
