@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rufina', serif;
+    text-align: center;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+}
+
+.card-img {
+    height: 550px;
+    width: auto;
+    image-rendering: optimizeQuality;
+}
+
+.headerMenu .login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMenu .Hours {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.headerMenu .Horario {
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+    border-bottom: 2px dotted #000;
+    text-decoration: none;
+}
+
+.headerMenu .bodyHeader {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 326px;
+    left: 1250px;
+}
+
+.headerMenu a {
+    color: white;
+}
+
+.headerMenu p {
+    float: right;
+    margin-top: 200px;
+}
+
+.user {
+    display: none;
+}
+
+.pedidos {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.info-mesero-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.info-container {
+    position: relative;
+    margin-top: 50px;
+    left: 400px
+}
+
+.mesero-container {
+    position: relative;
+    margin-top: 50px;
+    left: 500px;
+}
+
+.mesero-container .mesero3,
+.mesero2 {
+    height: 200px;
+    width: 200px;
+}
+
+.orden-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-card .img1,
+.img28,
+.img7,
+.img9,
+.img30 {
+    height: 189px;
+    margin-bottom: 20px;
+}
+
+.mesasDisponibles {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.pedidos img {
+    width: 200px;
+}
+
+.orden-container {
+    display: flex;
+    justify-content: space-around
+}
+
+.btn-primary {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
